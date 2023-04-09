@@ -1,0 +1,343 @@
+INFO - 2023-03-28 06:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 06:09:00 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 06:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 06:09:00 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 06:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 06:30:57 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 06:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 06:30:57 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 06:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 06:31:55 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('x1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 06:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 06:34:38 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 06:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 06:34:38 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 06:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 06:35:05 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 06:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 06:35:05 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 06:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 06:36:52 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 06:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 06:36:52 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 06:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 06:36:57 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 06:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 06:36:57 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 06:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 06:37:01 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 06:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 06:37:01 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 06:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 07:21:35 --> Invalid file: "include/myasset.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\include\\myasset.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('FCPATH\\include\\myasset.php', [], true)
+ 3 APPPATH\Views\siakad\nilai_dialog.php(9): view('FCPATH\\include\\myasset.php')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\nilai_dialog.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/nilai_dialog', [], true)
+ 7 APPPATH\Controllers\Siakad.php(140): view('siakad/nilai_dialog', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->nilaidialog()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 07:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 07:22:10 --> Invalid file: "include/myfooter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\include\\myfooter.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('FCPATH\\include\\myfooter.php', [], true)
+ 3 APPPATH\Views\siakad\nilai_dialog.php(64): view('FCPATH\\include\\myfooter.php')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\nilai_dialog.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/nilai_dialog', [], true)
+ 7 APPPATH\Controllers\Siakad.php(140): view('siakad/nilai_dialog', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->nilaidialog()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 07:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 07:22:11 --> Invalid file: "include/myfooter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\include\\myfooter.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('FCPATH\\include\\myfooter.php', [], true)
+ 3 APPPATH\Views\siakad\nilai_dialog.php(64): view('FCPATH\\include\\myfooter.php')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\nilai_dialog.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/nilai_dialog', [], true)
+ 7 APPPATH\Controllers\Siakad.php(140): view('siakad/nilai_dialog', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->nilaidialog()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 07:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 07:22:17 --> Invalid file: "Layouts/myfooter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layouts/myfooter.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Layouts/myfooter.php', [], true)
+ 3 APPPATH\Views\siakad\nilai_dialog.php(64): view('Layouts/myfooter.php')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\nilai_dialog.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/nilai_dialog', [], true)
+ 7 APPPATH\Controllers\Siakad.php(140): view('siakad/nilai_dialog', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->nilaidialog()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 07:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 07:25:08 --> Invalid file: "include/myasset.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\include\\myasset.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('FCPATH\\include\\myasset.php', [], true)
+ 3 APPPATH\Views\siakad\nilai_entri.php(9): view('FCPATH\\include\\myasset.php')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\nilai_entri.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/nilai_entri', [], true)
+ 7 APPPATH\Controllers\Siakad.php(149): view('siakad/nilai_entri', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->entri_nilai()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 07:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 08:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 08:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 08:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 08:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 08:58:52 --> Undefined variable $nim
+in APPPATH\Controllers\Siakad.php on line 155.
+ 1 APPPATH\Controllers\Siakad.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nim', 'APPPATH\\Controllers\\Siakad.php', 155)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->simpannilai()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 08:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 08:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 08:59:17 --> Undefined variable $nim
+in APPPATH\Controllers\Siakad.php on line 155.
+ 1 APPPATH\Controllers\Siakad.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nim', 'APPPATH\\Controllers\\Siakad.php', 155)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->simpannilai()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-28 08:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 08:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 09:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 09:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 09:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 09:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 09:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 09:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 09:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 09:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 09:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 09:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 09:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 09:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

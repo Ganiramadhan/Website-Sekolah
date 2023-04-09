@@ -1,0 +1,138 @@
+CRITICAL - 2023-03-25 00:59:58 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+INFO - 2023-03-25 02:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 02:37:51 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 02:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 02:37:51 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 02:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 02:38:06 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 02:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 02:38:06 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 02:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 02:38:09 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 02:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 02:38:09 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 02:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 02:38:12 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 02:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 02:38:12 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 02:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 02:38:15 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 02:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 02:38:15 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 02:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

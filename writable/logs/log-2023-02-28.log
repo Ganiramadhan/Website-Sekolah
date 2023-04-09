@@ -1,0 +1,527 @@
+CRITICAL - 2023-02-28 06:08:27 --> Too few arguments to function App\Controllers\Helo::cetak(), 0 passed in D:\Xampp\htdocs\olshop\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Helo.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Helo->cetak()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Helo))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 06:17:42 --> Too few arguments to function App\Controllers\Helo::cetak(), 0 passed in D:\Xampp\htdocs\olshopP2\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Helo.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Helo->cetak()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Helo))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 06:17:56 --> A non-numeric value encountered
+in APPPATH\Controllers\Helo.php on line 31.
+ 1 APPPATH\Controllers\Helo.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Helo.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Helo->kali('2', 'main.css')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Helo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 06:17:56 --> A non-numeric value encountered
+in APPPATH\Controllers\Helo.php on line 31.
+ 1 APPPATH\Controllers\Helo.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Helo.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Helo->kali('2', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Helo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 06:18:50 --> A non-numeric value encountered
+in APPPATH\Controllers\Helo.php on line 31.
+ 1 APPPATH\Controllers\Helo.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Helo.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Helo->kali('5', 'main.css')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Helo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 06:18:50 --> A non-numeric value encountered
+in APPPATH\Controllers\Helo.php on line 31.
+ 1 APPPATH\Controllers\Helo.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Helo.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Helo->kali('5', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Helo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 06:25:47 --> A non-numeric value encountered
+in APPPATH\Controllers\Helo.php on line 31.
+ 1 APPPATH\Controllers\Helo.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Helo.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Helo->kali('5', 'main.css')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Helo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 06:25:47 --> A non-numeric value encountered
+in APPPATH\Controllers\Helo.php on line 31.
+ 1 APPPATH\Controllers\Helo.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Helo.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Helo->kali('5', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Helo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 06:26:37 --> A non-numeric value encountered
+in APPPATH\Controllers\Helo.php on line 31.
+ 1 APPPATH\Controllers\Helo.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Helo.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Helo->kali('5', 'main.css')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Helo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 06:26:37 --> A non-numeric value encountered
+in APPPATH\Controllers\Helo.php on line 31.
+ 1 APPPATH\Controllers\Helo.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Helo.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Helo->kali('5', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Helo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 06:50:50 --> Too few arguments to function App\Controllers\Helo::kali(), 0 passed in D:\Xampp\htdocs\olshopP2\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\Helo.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Helo->kali()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Helo))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 06:59:53 --> A non-numeric value encountered
+in APPPATH\Controllers\Helo.php on line 31.
+ 1 APPPATH\Controllers\Helo.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Helo.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Helo->kali('4', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Helo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 06:59:53 --> A non-numeric value encountered
+in APPPATH\Controllers\Helo.php on line 31.
+ 1 APPPATH\Controllers\Helo.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Helo.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Helo->kali('4', 'main.css')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Helo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 06:59:54 --> A non-numeric value encountered
+in APPPATH\Controllers\Helo.php on line 31.
+ 1 APPPATH\Controllers\Helo.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Helo.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Helo->kali('4', 'main.css')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Helo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 06:59:54 --> A non-numeric value encountered
+in APPPATH\Controllers\Helo.php on line 31.
+ 1 APPPATH\Controllers\Helo.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Helo.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Helo->kali('4', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Helo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 07:01:12 --> A non-numeric value encountered
+in APPPATH\Controllers\Helo.php on line 31.
+ 1 APPPATH\Controllers\Helo.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Helo.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Helo->kali('4', 'D:\\Xampp\\htdocs\\olshopP2')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Helo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 07:01:15 --> A non-numeric value encountered
+in APPPATH\Controllers\Helo.php on line 31.
+ 1 APPPATH\Controllers\Helo.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Helo.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Helo->kali('4', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Helo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 07:01:15 --> A non-numeric value encountered
+in APPPATH\Controllers\Helo.php on line 31.
+ 1 APPPATH\Controllers\Helo.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Helo.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Helo->kali('4', 'main.css')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Helo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:06:49 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:06:57 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:06:58 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:07:01 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:07:13 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:07:23 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:07:28 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:07:29 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:08:20 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:08:20 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:09:16 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:09:17 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:09:17 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:10:56 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:10:57 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:10:58 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:10:58 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:12:16 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:12:16 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:12:17 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:13:26 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:13:26 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:13:26 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:13:44 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:15:29 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:15:29 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:33:54 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:34:28 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:34:29 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:41:31 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:48:05 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:50:26 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:51:04 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:51:05 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:51:05 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-28 08:51:16 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\Xampp\htdocs\S4P2educampus\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Xampp\htdocs\S4P2educampus\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\Xampp\htdocs\S4P2educampus\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Xampp\htdocs\S4P2educampus\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Xampp\htdocs\S4P2educampus\app\Models\Model_siakad.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#4 D:\Xampp\htdocs\S4P2educampus\app\Controllers\Siakad.php(16): App\Models\Model_siakad->mahasiswa()
+#5 D:\Xampp\htdocs\S4P2educampus\system\CodeIgniter.php(934): App\Controllers\Siakad->index()
+#6 D:\Xampp\htdocs\S4P2educampus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+#7 D:\Xampp\htdocs\S4P2educampus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\S4P2educampus\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\Xampp\htdocs\S4P2educampus\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Xampp\htdocs\S4P2educampus\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Xampp\htdocs\S4P2educampus\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Xampp\htdocs\S4P2educampus\app\Models\Model_siakad.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#3 D:\Xampp\htdocs\S4P2educampus\app\Controllers\Siakad.php(16): App\Models\Model_siakad->mahasiswa()
+#4 D:\Xampp\htdocs\S4P2educampus\system\CodeIgniter.php(934): App\Controllers\Siakad->index()
+#5 D:\Xampp\htdocs\S4P2educampus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+#6 D:\Xampp\htdocs\S4P2educampus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp\htdocs\S4P2educampus\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-28 08:51:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Model_siakad.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mahasiswa')
+ 3 APPPATH\Controllers\Siakad.php(16): App\Models\Model_siakad->mahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:52:26 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 08:52:27 --> Class 'CodeIgniter\Database\MySQLi#\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi#', 'CodeIgniter\\Database\\MySQLi#\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Model_siakad.php(12): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Siakad.php(12): App\Models\Model_siakad->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Siakad->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

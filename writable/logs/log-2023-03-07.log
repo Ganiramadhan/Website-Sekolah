@@ -1,0 +1,385 @@
+ERROR - 2023-03-07 06:10:47 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in D:\Xampp\htdocs\S4P3educampus\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Xampp\htdocs\S4P3educampus\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'siakad', 3306, '', 0)
+#1 D:\Xampp\htdocs\S4P3educampus\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Xampp\htdocs\S4P3educampus\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Xampp\htdocs\S4P3educampus\app\Models\Model_siakad.php(21): CodeIgniter\Database\BaseConnection->query('SELECT mahasisw...')
+#4 D:\Xampp\htdocs\S4P3educampus\app\Controllers\Siakad.php(16): App\Models\Model_siakad->mahasiswa()
+#5 D:\Xampp\htdocs\S4P3educampus\system\CodeIgniter.php(934): App\Controllers\Siakad->index()
+#6 D:\Xampp\htdocs\S4P3educampus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+#7 D:\Xampp\htdocs\S4P3educampus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\S4P3educampus\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in D:\Xampp\htdocs\S4P3educampus\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Xampp\htdocs\S4P3educampus\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Xampp\htdocs\S4P3educampus\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Xampp\htdocs\S4P3educampus\app\Models\Model_siakad.php(21): CodeIgniter\Database\BaseConnection->query('SELECT mahasisw...')
+#3 D:\Xampp\htdocs\S4P3educampus\app\Controllers\Siakad.php(16): App\Models\Model_siakad->mahasiswa()
+#4 D:\Xampp\htdocs\S4P3educampus\system\CodeIgniter.php(934): App\Controllers\Siakad->index()
+#5 D:\Xampp\htdocs\S4P3educampus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+#6 D:\Xampp\htdocs\S4P3educampus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp\htdocs\S4P3educampus\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-07 06:10:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Model_siakad.php(21): CodeIgniter\Database\BaseConnection->query('SELECT mahasiswa.*,prodi.prodi FROM mahasiswa INNER JOIN prodi ON mahasiswa.kode=prodi.kode')
+ 3 APPPATH\Controllers\Siakad.php(16): App\Models\Model_siakad->mahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 07:34:11 --> Call to undefined function form_dropdown()
+in APPPATH\Views\siakad\add_mahasiswa.php on line 55.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/add_mahasiswa', [], true)
+ 4 APPPATH\Controllers\Siakad.php(24): view('siakad/add_mahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->add_mahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 07:34:28 --> Call to undefined function form_dropdown()
+in APPPATH\Views\siakad\add_mahasiswa.php on line 55.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/add_mahasiswa', [], true)
+ 4 APPPATH\Controllers\Siakad.php(24): view('siakad/add_mahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->add_mahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 07:36:07 --> Call to undefined function form_dropdown()
+in APPPATH\Views\siakad\add_mahasiswa.php on line 55.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/add_mahasiswa', [], true)
+ 4 APPPATH\Controllers\Siakad.php(24): view('siakad/add_mahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->add_mahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 07:36:07 --> Call to undefined function form_dropdown()
+in APPPATH\Views\siakad\add_mahasiswa.php on line 55.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/add_mahasiswa', [], true)
+ 4 APPPATH\Controllers\Siakad.php(24): view('siakad/add_mahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->add_mahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 07:36:56 --> Call to undefined function form_dropdown()
+in APPPATH\Views\siakad\add_mahasiswa.php on line 55.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/add_mahasiswa', [], true)
+ 4 APPPATH\Controllers\Siakad.php(24): view('siakad/add_mahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->add_mahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 07:36:57 --> Call to undefined function form_dropdown()
+in APPPATH\Views\siakad\add_mahasiswa.php on line 55.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/add_mahasiswa', [], true)
+ 4 APPPATH\Controllers\Siakad.php(24): view('siakad/add_mahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->add_mahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 07:37:49 --> Call to undefined function form_dropdown()
+in APPPATH\Views\siakad\add_mahasiswa.php on line 55.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/add_mahasiswa', [], true)
+ 4 APPPATH\Controllers\Siakad.php(24): view('siakad/add_mahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->add_mahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 07:37:50 --> Call to undefined function form_dropdown()
+in APPPATH\Views\siakad\add_mahasiswa.php on line 55.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/add_mahasiswa', [], true)
+ 4 APPPATH\Controllers\Siakad.php(24): view('siakad/add_mahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->add_mahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-07 09:10:07 --> mysqli_sql_exception: Duplicate entry '11' for key 'PRIMARY' in D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 D:\Xampp\htdocs\educampus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 D:\Xampp\htdocs\educampus\app\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Xampp\htdocs\educampus\app\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', Array)
+#6 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+#7 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+#8 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\educampus\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-07 09:10:07 --> Duplicate entry '11' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `lahirdi`, `lahirtgl`, `alamat`, `kode`) VALUES (:nim:, :nama:, :lahirdi:, :lahirtgl:, :alamat:, :kode:)', [...], false)
+ 2 APPPATH\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-07 09:11:56 --> mysqli_sql_exception: Duplicate entry '11' for key 'PRIMARY' in D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 D:\Xampp\htdocs\educampus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 D:\Xampp\htdocs\educampus\app\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Xampp\htdocs\educampus\app\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', Array)
+#6 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+#7 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+#8 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\educampus\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-07 09:11:56 --> Duplicate entry '11' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `lahirdi`, `lahirtgl`, `alamat`, `kode`) VALUES (:nim:, :nama:, :lahirdi:, :lahirtgl:, :alamat:, :kode:)', [...], false)
+ 2 APPPATH\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-07 09:13:31 --> mysqli_sql_exception: Duplicate entry '11' for key 'PRIMARY' in D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 D:\Xampp\htdocs\educampus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 D:\Xampp\htdocs\educampus\app\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Xampp\htdocs\educampus\app\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', Array)
+#6 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+#7 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+#8 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\educampus\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-07 09:13:31 --> Duplicate entry '11' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `lahirdi`, `lahirtgl`, `alamat`, `kode`) VALUES (:nim:, :nama:, :lahirdi:, :lahirtgl:, :alamat:, :kode:)', [...], false)
+ 2 APPPATH\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-07 09:13:58 --> mysqli_sql_exception: Duplicate entry '11' for key 'PRIMARY' in D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 D:\Xampp\htdocs\educampus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 D:\Xampp\htdocs\educampus\app\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Xampp\htdocs\educampus\app\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', Array)
+#6 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+#7 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+#8 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\educampus\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-07 09:13:58 --> Duplicate entry '11' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `lahirdi`, `lahirtgl`, `alamat`, `kode`) VALUES (:nim:, :nama:, :lahirdi:, :lahirtgl:, :alamat:, :kode:)', [...], false)
+ 2 APPPATH\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-07 09:16:22 --> mysqli_sql_exception: Duplicate entry '11' for key 'PRIMARY' in D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 D:\Xampp\htdocs\educampus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 D:\Xampp\htdocs\educampus\app\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Xampp\htdocs\educampus\app\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', Array)
+#6 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+#7 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+#8 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\educampus\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-07 09:16:22 --> Duplicate entry '11' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `lahirdi`, `lahirtgl`, `alamat`, `kode`) VALUES (:nim:, :nama:, :lahirdi:, :lahirtgl:, :alamat:, :kode:)', [...], false)
+ 2 APPPATH\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-07 09:19:00 --> mysqli_sql_exception: Duplicate entry '11' for key 'PRIMARY' in D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 D:\Xampp\htdocs\educampus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 D:\Xampp\htdocs\educampus\app\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Xampp\htdocs\educampus\app\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', Array)
+#6 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+#7 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+#8 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\educampus\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-07 09:19:00 --> Duplicate entry '11' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `lahirdi`, `lahirtgl`, `alamat`, `kode`) VALUES (:nim:, :nama:, :lahirdi:, :lahirtgl:, :alamat:, :kode:)', [...], false)
+ 2 APPPATH\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-07 09:19:08 --> mysqli_sql_exception: Duplicate entry '11' for key 'PRIMARY' in D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 D:\Xampp\htdocs\educampus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 D:\Xampp\htdocs\educampus\app\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Xampp\htdocs\educampus\app\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', Array)
+#6 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+#7 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+#8 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\educampus\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-07 09:19:08 --> Duplicate entry '11' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `lahirdi`, `lahirtgl`, `alamat`, `kode`) VALUES (:nim:, :nama:, :lahirdi:, :lahirtgl:, :alamat:, :kode:)', [...], false)
+ 2 APPPATH\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-07 09:19:20 --> mysqli_sql_exception: Duplicate entry '11' for key 'PRIMARY' in D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 D:\Xampp\htdocs\educampus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 D:\Xampp\htdocs\educampus\app\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Xampp\htdocs\educampus\app\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', Array)
+#6 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+#7 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+#8 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\educampus\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-07 09:19:20 --> Duplicate entry '11' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `lahirdi`, `lahirtgl`, `alamat`, `kode`) VALUES (:nim:, :nama:, :lahirdi:, :lahirtgl:, :alamat:, :kode:)', [...], false)
+ 2 APPPATH\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-07 09:23:50 --> mysqli_sql_exception: Duplicate entry '11' for key 'PRIMARY' in D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 D:\Xampp\htdocs\educampus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 D:\Xampp\htdocs\educampus\app\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Xampp\htdocs\educampus\app\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', Array)
+#6 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+#7 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+#8 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\educampus\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-07 09:23:50 --> Duplicate entry '11' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `lahirdi`, `lahirtgl`, `alamat`, `kode`) VALUES (:nim:, :nama:, :lahirdi:, :lahirtgl:, :alamat:, :kode:)', [...], false)
+ 2 APPPATH\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-07 09:24:46 --> mysqli_sql_exception: Duplicate entry '11' for key 'PRIMARY' in D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 D:\Xampp\htdocs\educampus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 D:\Xampp\htdocs\educampus\app\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Xampp\htdocs\educampus\app\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', Array)
+#6 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+#7 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+#8 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\educampus\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-07 09:24:46 --> Duplicate entry '11' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `lahirdi`, `lahirtgl`, `alamat`, `kode`) VALUES (:nim:, :nama:, :lahirdi:, :lahirtgl:, :alamat:, :kode:)', [...], false)
+ 2 APPPATH\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-07 09:25:55 --> mysqli_sql_exception: Duplicate entry '11' for key 'PRIMARY' in D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Xampp\htdocs\educampus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 D:\Xampp\htdocs\educampus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 D:\Xampp\htdocs\educampus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 D:\Xampp\htdocs\educampus\app\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Xampp\htdocs\educampus\app\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', Array)
+#6 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+#7 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+#8 D:\Xampp\htdocs\educampus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\educampus\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-07 09:25:55 --> Duplicate entry '11' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `lahirdi`, `lahirtgl`, `alamat`, `kode`) VALUES (:nim:, :nama:, :lahirdi:, :lahirtgl:, :alamat:, :kode:)', [...], false)
+ 2 APPPATH\Models\Model_siakad.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Siakad.php(35): App\Models\Model_siakad->insertTotable('mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 09:27:33 --> Invalid file: "include/myasset.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\include\\myasset.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('FCPATH\\include\\myasset.php', [], true)
+ 3 APPPATH\Views\siakad\pesan.php(11): view('FCPATH\\include\\myasset.php')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\pesan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/pesan', [], true)
+ 7 APPPATH\Controllers\Siakad.php(39): view('siakad/pesan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 09:27:49 --> Invalid file: "include/myasset.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\include\\myasset.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('FCPATH\\include\\myasset.php', [], true)
+ 3 APPPATH\Views\siakad\pesan.php(11): view('FCPATH\\include\\myasset.php')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\pesan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/pesan', [], true)
+ 7 APPPATH\Controllers\Siakad.php(39): view('siakad/pesan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->mhs_simpan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

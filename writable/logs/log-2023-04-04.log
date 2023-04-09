@@ -1,0 +1,116 @@
+INFO - 2023-04-04 07:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-04 07:27:22 --> Call to undefined method App\Controllers\Convertpdf::initController()
+in SYSTEMPATH\CodeIgniter.php on line 907.
+ 1 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 07:27:39 --> Call to undefined method App\Controllers\Convertpdf::initController()
+in SYSTEMPATH\CodeIgniter.php on line 907.
+ 1 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-04 07:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-04 07:27:57 --> Call to undefined method App\Controllers\Convertpdf::initController()
+in SYSTEMPATH\CodeIgniter.php on line 907.
+ 1 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-04 07:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-04 07:28:52 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\eduCampus\app\Controllers\Convertpdf.php on line 17
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Convertpdf.php(17): CodeIgniter\HTTP\RedirectResponse->to(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Convertpdf->tes()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convertpdf))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-04 07:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-04 07:29:09 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\eduCampus\app\Controllers\Convertpdf.php on line 17
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Convertpdf.php(17): CodeIgniter\HTTP\RedirectResponse->to(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Convertpdf->tes()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convertpdf))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 07:32:30 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\eduCampus\app\Controllers\Convertpdf.php on line 17
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Convertpdf.php(17): CodeIgniter\HTTP\RedirectResponse->to(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Convertpdf->tes()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convertpdf))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-04 07:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-04 07:32:34 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\eduCampus\app\Controllers\Convertpdf.php on line 17
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Convertpdf.php(17): CodeIgniter\HTTP\RedirectResponse->to(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Convertpdf->tes()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convertpdf))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-04 07:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-04 07:54:43 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-04 07:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-04 07:54:43 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-04 07:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 07:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-04 07:54:56 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-04 07:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-04 07:54:56 --> Attempt to read property "nim" on null
+in APPPATH\Views\siakad\edit_mahasiswa.php on line 33.
+ 1 APPPATH\Views\siakad\edit_mahasiswa.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'APPPATH\\Views\\siakad\\edit_mahasiswa.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siakad\\edit_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siakad/edit_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Siakad.php(39): view('siakad/edit_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siakad->edit_mahasiswa('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siakad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-04 07:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 08:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
